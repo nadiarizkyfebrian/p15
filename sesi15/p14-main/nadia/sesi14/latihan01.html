@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan jQuery 01</title>   
+</head>
+<body>
+    <h3>Judul</h3>
+    <div id="Pesan">Isi Pesan</div>
+    <div class="Pesan">Isi pesan</div>
+
+    <h4>apa</h4>
+    <div id="Pesan2">Isi Pesan</div>
+    <div class="Pesan2">Isi pesan</div>
+
+
+    <script src="jquery-3.7.0.min.js"></script>
+    <script>
+      $(function(){
+        $("#Pesan").html("Isi Yang Baru");
+        $(".Pesan").html("isi class yang baru")
+        $("h3").html("Belajar jQuery")
+        $("#Pesan2").html("Nadia Rizky febrian");
+        $(".Pesan2").html("Apa aja deh")
+        $("h4").html("nadia belajar jQuery")
+      });
+    </script>
+</body>
+</html>
